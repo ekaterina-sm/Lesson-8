@@ -1,0 +1,411 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+@font-face {
+   font-family: "Miratrix";
+   src: url('../fonts/Miratrix-Normal.woff2') format('woff2'), url('../fonts/Miratrix-Normal.woff') format('woff');
+   font-style: normal;
+   font-weight: 400; 
+}
+.example {
+	padding: 30px;
+}
+.link-example {
+	color: green;
+	font-size: 30px;
+}
+.link-example:hover {
+	color: red;
+	font-size: 60px;
+	text-decoration: underline;
+}
+.text-example {
+	width: 1000px;
+	padding: 20px;
+	margin: 0px 0px 30px 0px;
+}
+.text-example:hover {
+	cursor: pointer;
+	background-color: yellow;
+}
+
+
+.example-2 {
+	padding: 30px;
+	font-size: 20px;
+	}
+.link-example-2 {
+	color: aqua;
+	font-size: 20px;
+	}
+.link-example-2:hover {
+	cursor: default;
+	color: purple;
+	font-size: 30px;
+	text-decoration: underline;
+	}
+.text-example-2 {
+	width: 1700px;
+	padding: 20px;
+	margin: 0px 0px 30px 0px;
+	}
+.text-example-2:hover {
+	cursor: default;
+	background-color: red;
+	}
+
+
+.example-3 {
+	padding: 15px;
+	font-size: 15px;
+	}
+.link-example-3 {
+	color: purple;
+	font-size: 40px;
+	}
+.link-example-3:hover {
+	cursor: default;
+	color: royalblue;
+	font-size: 10px;
+	text-decoration: underline;
+	}
+.link-example-3:active {
+	color: green;
+	font-size: 50px;
+	}
+.text-example-3 {
+	width: 1000px;
+	padding: 30px;
+	margin: 0px 0px 30px 0px;
+	}
+.text-example-3:hover {
+	cursor: default;
+	background-color: peru;
+	}
+.text-example-3:active {
+	cursor: default;
+	font-size: 50px;
+	background-color: rebeccapurple;
+	}
+
+
+.example-4 {
+	padding: 40px;
+	}
+.link-example-4 {
+   font-style: normal;
+	background-color: lawngreen;
+	display: inline-block;
+	padding: 15px 30px;
+	border-radius: 40px;
+	font-size: 50px;
+	color: #FF181B;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	box-shadow: 0 5px 0 black;
+	}
+.link-example-4:hover {
+	margin: 1px 0px 0px 0px;
+	background-color: aqua;
+	box-shadow: 0 4px 0 0 black;
+	}
+.link-example-4:active {
+	margin: 4px 0px 0px 0px;
+	background-color: yellow;
+	box-shadow: inset 0 5px  black;
+	}
+.text-example-4 {
+	width: 1800px;
+	padding: 30px;
+	margin: 0px 0px 30px 0px;
+	background-color: aqua;
+	}
+.text-example-4:hover {
+	cursor: default;
+	background-color: wheat;
+	margin: 1px 0px 0px 0px;
+	box-shadow: 0 4px 0 0 black;
+	}
+.text-example-4:active {
+	margin: 4px 0px 0px 0px;
+	background-color: orangered;
+	box-shadow: inset 0 5px  black;
+	}
+
+
+.example-5 {
+	padding: 50px;
+	font-size: 35px;
+	background-color: darkgray;
+	}
+.link-example-5 {
+	background-color: lawngreen;
+	display: inline-block;
+	padding: 30px 30px;
+	border-radius: 20px;
+	color: #FF181B;
+	letter-spacing: 2px;
+	box-shadow: 5px 10px 5px black;
+	}
+.link-example-5:hover {
+	background-color: aqua;
+	margin: 5px 0px 0px 0px;
+	box-shadow: 0 4px 0 0 red;
+	}
+.link-example-5:active {
+	margin: 5px 0px 0px 0px;
+	background-color: yellow;
+	box-shadow: inset 0 15px indianred;	
+	}
+.list-5 {	
+	color: blue;
+	padding: 20px;
+}
+.link-5 {
+	color: black;
+}
+.link-5:visited {
+	
+}
+
+.example-6 {
+	padding: 50px;
+	font-size: 35px;
+	background-color: lemonchiffon;
+	}
+	.link-example-6 {
+		background-color: lawngreen;
+		display: inline-block;
+		padding: 30px 30px;
+		border-radius: 20px;
+		color: #FF181B;
+		letter-spacing: 2px;
+		box-shadow: 5px 10px 5px black;
+		}
+.link-example-6:focus {
+	color: slateblue;
+	outline: 5px dotted green;
+}
+.example-7 {
+	padding: 20px;
+	background-color: antiquewhite;
+}
+.link-example-7 {
+	font-size: 50px;
+	color: blueviolet;
+   background-color: aqua;
+	letter-spacing: 2px;
+	box-shadow: 5px 10px 5px black;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 20px;	
+}
+.text-example-7 {
+	padding: 30px;
+	background-color: aqua;
+	font-size: 20px;
+	margin: 40px;
+	border-radius: 20px;	
+}
+.text-example-7:target { 
+	background-color: #FF181B;
+}
+
+
+.text-block-2 p {
+	font-size: 30px;
+	padding: 25px;
+	margin: 0px 0px 20px 0px;
+	background-color: bisque;
+}
+.text-block-2 p:first-child {
+	background-color: blue;
+}
+.text-block-2 p:last-of-type {
+	background-color: blue;
+}
+.text-block-2 p:nth-child(3) {
+	background-color: lemonchiffon;
+}
+
+
+
+
+.text-block-3 p {
+	font-size: 20px;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+	background-color: skyblue;
+}
+.text-block-3 *:first-child {
+	background-color: lightcoral;
+}
+.text-block-3 p:last-child {
+	background-color: lightcoral;
+}
+.text-block-3 p:nth-child(3) {
+	background-color: lemonchiffon;
+}
+
+
+.text-block-4 p {
+	font-size: 30px;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+	background-color: darkorange;
+}
+.text-block-4 p:first-of-type {
+	background-color: greenyellow;
+}
+.text-block-4 p:last-child {
+	background-color: greenyellow;
+}
+.text-block-4 p:nth-child(3) {
+	background-color: lemonchiffon;
+}
+
+.text-block-5 p {
+	font-size: 30px;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+	background-color: darkorange;
+}
+.text-block-5 p:nth-child(1),
+.text-block-5 p:nth-child(2) {
+	background-color: lemonchiffon;
+}
+.text-block-6 p {
+	font-size: 30px;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+	background-color: rosybrown;
+}
+.text-block-6 p:nth-child(odd) {
+	background-color: aqua;
+}
+.text-block-6 p:nth-last-child(even) {
+	background-color: royalblue;
+}
+
+.text-block-7 li:nth-child(3n) {
+	background-color: fuchsia;
+}
+.text-block-7 li:nth-child(3n + 4) {
+	background-color: yellow;
+}
+.text-block-8 p:nth-last-of-type(odd) {
+	background-color: slategray;
+}
+.text-block-8 p:nth-last-of-type(even) {
+	background-color: yellowgreen;
+}
+.text-block-9 p:nth-last-of-type(1) {
+	background-color: pink;
+	margin: 30px;
+	padding: 20px;
+}
+.text-block-9 p:last-child {
+ margin-bottom: 0px;
+}
+.text-block-10 li:not(.text) {
+	background-color: fuchsia;
+  }
+	
+  .text-block-11 p {
+	font-size: 30px;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+	background-color: wheat;
+}	
+.text-block-11 p:not(:last-child) {
+	margin-bottom: 0px;
+}
+.text-block-12 {
+	font-size: 30px;
+	background-color: hotpink;
+	color: green;
+	padding: 15px;
+	margin: 50px;
+}
+.text-block-12*:last-child{
+	margin-bottom: 0px;
+}
+.text-block-12-header {
+	font-size: 50px;
+	margin: 20px 0px 30px 0px;
+}
+.text-block-12 p {
+	line-height: 130%;
+	margin: 0px 0px 30px 0px;
+}
+.text-block-12-link {
+	color: blue;
+	display: inline-block;
+	margin: 0px 0px 30px 0px;
+}
+.text-block-12-paragraph-1::first-line {
+color: aliceblue;
+}
+.text-block-12-paragraph-2::first-letter {
+	color: beige;
+}
+.text-block-12-paragraph-1::before {
+	content: "Я BEFORE.";
+}
+.text-block-12-paragraph-1::after {
+	content: "a Я after.";
+}
+.text-block-10 li {
+	padding: 0px 0px 10px 30px;
+}
+.text-block-10 li::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin: 0px 10px 0px 30px;
+	background: url("../img/logo.png") 0 0 / 20px no-repeat;
+}
+.text-block-12-paragraph-4::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 1700px;
+	margin: 5px 0px 0px 0px;
+	background-color: black;
+}
+.list {
+	counter-reset: item;
+	font-size: 30px;
+	padding: 30px;
+}
+.list li::before {
+	counter-increment: item;
+	content:"(" counter(item) ")";
+	margin: 0px 10px 0px 0px;
+	color: green;
+	font-size: 30px;
+}
+.list li:hover + li {
+	color: #FF181B;
+}
+.blok {
+	pointer-events: none;
+}
+.blok:hover .blok-paragraph {
+visibility: hidden;
+}
+.blok-paragraph {
+	background-color: lemonchiffon;
+	padding: 15px;
+}
+
+
+			
+
+		
